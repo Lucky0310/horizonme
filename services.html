@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>HORIZONME</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+  <div id="banner">
+    <div class="banner_box">
+        <h1>HORIZON<span style="color: red;">ME</span></h1>
+    </div>
+    <div> 
+      <!-- Your logo here -->
+      <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="partners.html">Partners</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="openContactPopup()">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>     
+    </div>
+  </div>
+  <!-- Transparent overlay -->
+  <div id="contact-overlay"></div>
+
+  <!-- Contact popup -->
+  <div id="contact-popup">
+    <h2>Contact Details</h2>
+    <p><i class="fa fa-phone"></i> +966 53 954 8824</p>
+    <p><i class="fa fa-phone"></i> +966 50 590 0738</p>
+    <p><i class="fa fa-envelope"></i> md@ hme-consult.com</p>
+    <p><i class="fa fa-globe"></i> <a href="www.hme-consult.com" target="_blank">www.hme-consult.com</a></p>
+    <button onclick="closeContactPopup()">Close</button>
+  </div>
+
+  <main class="main_section">
+    <div class="paragraph-row">
+          <h2 id="strategy_section"><span style="color: red;"><i class="fa fa-hand-point-right"></i></span> TECHNICAL & MANAGEMENT EXPERIENCE</h2>
+        </div>
+          <div class="strategy_section">
+            <ul>
+              <li><i class="fa fa-caret-right"></i><i class="fa fa-caret-right"></i>  Experienced team (more than 30 years each as ex Aramco and SABIC)</li>
+              <ul>
+                <li><i class="fa fa-caret-right"></i> Mechanical and rotating equipment</li>
+                <li><i class="fa fa-caret-right"></i> Electrical and Instrumentation</li>
+                <li><i class="fa fa-caret-right"></i> Chemical and process engineering</li>
+                <li><i class="fa fa-caret-right"></i> Environmental and Safety (EHS)</li>
+                <li><i class="fa fa-caret-right"></i> Warehousing, material management and spare parts reviews</li>
+                <li><i class="fa fa-caret-right"></i> Project management</li>
+              </ul>
+            </ul>
+          </div>
+
+        <h2><span style="color: red;"><i class="fa fa-hand-point-right"></i></span> HMECO Journey</h2>
+        <div class="overview_img hjournery">
+          <img src="images/growth.png" alt="">
+        </div>
+        <h2 id="business-partners"><span style="color: red;"><i class="fa fa-hand-point-right"></i></span> OUR BUSINESS PARTNERS & CUSTOMERS</h2>
+        <p>HORIZONME has the experience & the capability to manage industrial projects, utilizing its team vast experience, business partners & the group network locally and Globally. HORIZONME provide services in an integrated approach with professionalism, quality and commitment from the idea until the plant operation.</p>
+        <div class="overview_img hbpartners">
+          <img src="images/bp.png" alt="">
+        </div>
+  </main>
+  <div id="footer">
+    <p>&copy; 2023 HORIZONME. All rights reserved.</p>
+  </div>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/6a1712e8fa.js" crossorigin="anonymous"></script>
+  <script src="script/script.js"></script>
+</body>
+</html>
